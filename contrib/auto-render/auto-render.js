@@ -107,5 +107,4 @@ var renderMathInElement = function(elem, options) {
 
     renderElem(elem, options.delimiters, options.ignoredTags);
 };
-
 module.exports = renderMathInElement;
