@@ -12,7 +12,8 @@
     "cli.js",
     "src/",
     "dist/*.*",
-    "dist/**/*.*"
+    "dist/**/*.*",
+    "statics/"
   ],
   "license": "MIT",
   "devDependencies": {
