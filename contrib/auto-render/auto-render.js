@@ -2,7 +2,7 @@
 /* global katex */
 
 var splitAtDelimiters = require("./splitAtDelimiters");
-var katex = require("../katex");
+var katex = require("../../katex");
 var splitWithDelimiters = function(text, delimiters) {
     var data = [{type: "text", data: text}];
     for (var i = 0; i < delimiters.length; i++) {
