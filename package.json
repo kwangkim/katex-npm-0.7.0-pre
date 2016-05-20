@@ -11,9 +11,7 @@
     "katex.js",
     "cli.js",
     "src/",
-    "dist/*.*",
-    "dist/**/*.*",
-    "statics/"
+    "dist/"
   ],
   "license": "MIT",
   "devDependencies": {
