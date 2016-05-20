@@ -33,9 +33,7 @@
   "bin": "cli.js",
   "scripts": {
     "test": "make lint test",
-    "prepublish": "make dist",
-    "postinstall": "node -e \"require('fs').readdir('lib',function(e)\ 
-{e&&require('child_process').exec('npm run prepublish')})\"",
+    "prepublish": "make dist"
   },
   "dependencies": {
     "match-at": "^0.1.0"
