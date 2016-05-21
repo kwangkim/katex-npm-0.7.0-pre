@@ -14,8 +14,6 @@ var buildTree = require("./src/buildTree");
 var parseTree = require("./src/parseTree");
 var utils = require("./src/utils");
 
-//KWANG
-var renderMathInElement = require("./contrib/auto-render/auto-render");
 
 /**
  * Parse and build an expression, and place that expression in the DOM node
@@ -74,6 +72,4 @@ module.exports = {
      */
     __parse: generateParseTree,
     ParseError: ParseError,
-    //KWANG
-    renderMathInElement: renderMathInElement,
 };

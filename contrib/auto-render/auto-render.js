@@ -1,5 +1,6 @@
 /* eslint no-console:0 */
 /* global katex */
+/*KWANG: npm katex */
 
 var splitAtDelimiters = require("./splitAtDelimiters");
 //KWANG
